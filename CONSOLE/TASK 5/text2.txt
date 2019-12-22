@@ -1,0 +1,15 @@
+program task2;
+VAR n: INTEGER;
+BEGIN
+writeln('Введите номер месяца:');
+readln(n);
+IF (n=12) or (n=1) or (n=2) THEN writeln('Зима.')
+ELSE
+IF (n=3) or (n=4) or (n=5) THEN writeln('Весна.')
+ELSE
+IF (n=6) or (n=7) or (n=8) THEN writeln('Лето.')
+ELSE
+IF (n=9) or (n=10) or (n=11) THEN writeln('Осень.')
+ELSE
+IF (n<=0) or (n>12) THEN writeln('Ошибка! В году только 12 месяцев.')
+END END END

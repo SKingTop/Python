@@ -1,0 +1,15 @@
+program task2;
+var n: integer;
+begin
+writeln('Введите номер месяца:');
+readln(n);
+if (n=12) or (n=1) or (n=2) then writeln('Зима.')
+else
+if (n=3) or (n=4) or (n=5) then writeln('Весна.')
+else
+if (n=6) or (n=7) or (n=8) then writeln('Лето.')
+else
+if (n=9) or (n=10) or (n=11) then writeln('Осень.')
+else
+if (n<=0) or (n>12) then writeln('Ошибка! В году только 12 месяцев.')
+end End END
